@@ -1,6 +1,6 @@
 %define name pilrc
 %define version 3.2
-%define release %mkrel 4
+%define release %mkrel 5
 
 Summary: Takes a resource script file and generates one or more binary resource
 Name: %{name}
