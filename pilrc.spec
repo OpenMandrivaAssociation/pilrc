@@ -51,3 +51,31 @@ rm -rf $RPM_BUILD_ROOT
 %_datadir/%name/*
 
 
+
+
+%changelog
+* Fri Sep 04 2009 Thierry Vignaud <tvignaud@mandriva.com> 3.2-6mdv2010.0
++ Revision: 430735
+- rebuild
+
+* Fri Aug 01 2008 Thierry Vignaud <tvignaud@mandriva.com> 3.2-5mdv2009.0
++ Revision: 259064
+- rebuild
+
+* Thu Jul 24 2008 Thierry Vignaud <tvignaud@mandriva.com> 3.2-4mdv2009.0
++ Revision: 246978
+- rebuild
+
+* Wed Jan 02 2008 Olivier Blin <oblin@mandriva.com> 3.2-2mdv2008.1
++ Revision: 140731
+- restore BuildRoot
+
+  + Thierry Vignaud <tvignaud@mandriva.com>
+    - kill re-definition of %%buildroot on Pixel's request
+
+
+* Mon Jan 15 2007 Lenny Cartier <lenny@mandriva.com> 3.2-2mdv2007.0
++ Revision: 109171
+- Rebuild & url
+- Import pilrc
+
