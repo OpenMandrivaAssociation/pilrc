@@ -7,7 +7,7 @@ Name: %{name}
 Version: %{version}
 Release: %{release}
 License: GPL
-URL: http://pilrc.sourceforge.net/
+URL: https://pilrc.sourceforge.net/
 Source: %{name}-%{version}.tar.bz2
 Group: Development/Other
 BuildRoot: %{_tmppath}/%{name}-%{version}-buildroot
