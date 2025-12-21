@@ -11,6 +11,11 @@ URL: https://pilrc.sourceforge.net/
 Source: %{name}-%{version}.tar.bz2
 Group: Development/Other
 BuildRoot: %{_tmppath}/%{name}-%{version}-buildroot
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires: gtk-devel
 
 %description
